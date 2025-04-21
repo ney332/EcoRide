@@ -61,6 +61,8 @@ h2{
   margin: auto;
   height: 350px;
   display: flex;
+  text-align: center;
+
 }
 img{
   width: 300px;
@@ -81,14 +83,12 @@ img{
   margin-left: 200px;
 }
 
-.sobre, .beneficios {
-  text-align: center;
-}
-
 .beneficios {
   width: 980px;
   margin: auto;
   height: 350px;
+  text-align: center;
+
 }
 
 .beneficios h2 {
@@ -137,7 +137,7 @@ img{
 }
 
 .butao{
-  margin-left: 90px;
+  margin-left: 100px;
   padding: 10px 20px;
   margin-top: 20px;
   background-color: #f5f5f5;
