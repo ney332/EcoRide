@@ -162,7 +162,7 @@ img{
   text-decoration: none;
   display: inline-flex; /* Use inline-flex para flexibilidade no layout */
   align-items: center; /* Alinha o texto verticalmente */
-  justify-content: center; /* Garante que o conteÃºdo (link) fique centralizado */
+  justify-content: center; /* Garante que o link fique centralizado */
   transition: transform 0.3s ease; /* Suaviza a transiÃ§Ã£o do efeito */
 }
 
@@ -175,13 +175,11 @@ img{
   padding: 0; 
 }
 
-/* Efeito de hover */
 .butao:hover {
-  transform: scale(1.1); /* Aumenta o tamanho do botÃ£o em 10% */
+  transform: scale(1.1); /* Aumenta o tamanho do btn em 10% */
 }
 
 
-/* ==== FORMULÃRIO DE PAGAMENTO ==== */
 .form-wrapper {
   width: 400px;
   margin: 50px auto;
