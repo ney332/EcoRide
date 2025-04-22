@@ -150,7 +150,82 @@ img{
   color: rgb(49, 47, 47);
 }
 
+/* form */
 
+.butao {
+  margin-left: 100px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid rgb(54, 52, 52);
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-flex; /* Use inline-flex para flexibilidade no layout */
+  align-items: center; /* Alinha o texto verticalmente */
+  justify-content: center; /* Garante que o conteÃºdo (link) fique centralizado */
+  transition: transform 0.3s ease; /* Suaviza a transiÃ§Ã£o do efeito */
+}
+
+.butao a {
+  text-decoration: none;
+  color: rgb(49, 47, 47);
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 0; 
+}
+
+/* Efeito de hover */
+.butao:hover {
+  transform: scale(1.1); /* Aumenta o tamanho do botÃ£o em 10% */
+}
+
+
+/* ==== FORMULÃRIO DE PAGAMENTO ==== */
+.form-wrapper {
+  width: 400px;
+  margin: 50px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.form-wrapper h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.form-cadastro {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-cadastro input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid rgb(207, 202, 202);
+  font-size: 16px;
+}
+
+.form-cadastro .butao {
+  background-color: #f5f5f5;
+  border: 1px solid rgb(54, 52, 52);
+  color: rgb(49, 47, 47);
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.form-cadastro .butao:hover {
+  background-color: rgb(170, 178, 178);
+  color: #fff;
+}
 
 footer {
   background-color: rgb(0, 0, 0);

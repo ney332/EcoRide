@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento | EcoRide</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/icon.PNG" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h2>EcoRide</h2>
+        <nav>
+            <a href="./index.html">Início</a>
+            <a href="./planos.html">Planos</a>
+            <a href="#">Contato</a>
+            <a href="#">Sobre</a>
+        </nav>
+    </header>
+
+    <div class="form-wrapper">
+        <h2>Pagamento do Plano</h2>
+        <form class="form-cadastro" action="#" method="POST">
+            <input type="text" name="nome" placeholder="Nome completo" required>
+            <input type="text" name="cpf" placeholder="CPF (somente números)" required maxlength="14">
+            <input type="text" name="cartao" placeholder="Número do cartão" required maxlength="19">
+            <input type="text" name="validade" placeholder="Validade (MM/AA)" required maxlength="5">
+            <input type="text" name="codigo" placeholder="Código de segurança (CVV)" required maxlength="4">
+            <button type="submit" class="butao">Pagar</button>
+        </form>
+    </div>
+
+    <script src="formulario.js"></script>
+
+    <footer>
+        <p>@todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
