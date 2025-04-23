@@ -13,7 +13,7 @@
         <nav>
             <a href="./index.html">Início</a>
             <a href="./planos.html">Planos</a>
-            <a href="#">Contato</a>
+            <a href="./index.php">Contato</a>
             <a href="#">Sobre</a>
         </nav>
     </header>
@@ -27,14 +27,7 @@
         $cpf = $_POST['cpf'];
         $email = $_POST['email'];
         $telefone = $_POST['telefone'];
-
-        // Converte data do formato ddmmaaaa para yyyy-mm-dd
-        if (isset($_POST['data_de_nascimento']) && !empty($_POST['data_de_nascimento'])) {
-            $data = DateTime::createFromFormat('dmY', $_POST['data_de_nascimento']);
-            $data_formatada = $data ? $data->format('Y-m-d') : null;
-        } else {
-            $data_formatada = null;
-        }
+        $data_formatada = isset($_POST['data_de_nascimento']) ? $_POST['data_de_nascimento'] : null;
 
         $sql = "INSERT INTO pessoa (Nome, CPF, `E-mail`, Telefone, Data_de_Nascimento)
                 VALUES (:nome, :cpf, :email, :telefone, :data_de_nascimento)";
