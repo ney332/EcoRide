@@ -20,7 +20,7 @@
 
     <div class="form-wrapper">
         <h2>Contato</h2>
-        <form action="cadastro_script.php" method="POST">
+        <form action="cadastro_script.php" method="POST" class="form-cadastro">
             <input type="text" name="nome" placeholder="Nome completo" required>
             <input type="text" name="cpf" placeholder="CPF (somente números)" required maxlength="14">
             <input type="text" name="email" placeholder="e-mail" required>
