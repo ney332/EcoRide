@@ -46,9 +46,12 @@
         $stmt->bindParam(':data_de_nascimento', $data_formatada);
 
         if ($stmt->execute()) {
-            echo "<div class='mensagem'><p>Cadastro realizado com sucesso!</p>
-                     <a href='index.php'><button>Voltar</button></a>
-                  </div>";
+            echo "
+            <main class='d-flex flex-column justify-content-center align-items-center text-center' style='min-height: 60vh;'>
+                <h4 class='mb-3'>$nome cadastrado com sucesso!</h4>
+                <a href='index.php' class='btn btn-secondary'>Voltar</a>
+            </main>
+            ";
         } else {
             echo "<div class='mensagem'><p>Erro ao cadastrar.</p></div>";
         }
