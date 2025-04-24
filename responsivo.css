@@ -1,0 +1,98 @@
+@media (max-width: 760px) {
+    header, 
+    .banner, 
+    .sobre, 
+    .beneficios, 
+    .cards,
+    footer {
+        width: 80%;
+    }
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav a {
+        margin: 5px;
+        display: block;
+    }
+
+    #menu{
+        display: flex;
+    }
+    nav{
+        display: none;
+        right: 10px;
+        top: 70px;
+        background-color: black;
+        padding: 10px;
+        border-radius: 10px;
+        z-index: 1000;
+    }
+    nav.active{
+        display: flex;
+    }
+
+    .sobre {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .sobre-titulo, 
+    .img {
+        width: 100%;
+        margin: 20px auto;
+        text-align: center;
+    }
+    .img img {
+        width: 80%;
+    }
+
+    .beneficios 
+    .itens {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item {
+        width: 50%;
+    }
+
+    .cards {
+        flex-direction: column;
+        height: auto; 
+    }
+
+    #card {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .form-wrapper {
+        width: 90%;
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    .form-cadastro input {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .butao {
+        margin-left: 0;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
