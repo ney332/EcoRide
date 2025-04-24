@@ -20,7 +20,6 @@
                 <a href="./index.html">Inicio</a>
                 <a href="./planos.html">Planos</a>
                 <a href="./CRUD/index.php">Contato</a>
-                <a href="./index.html/#sobre">sobre</a>
             </nav>
     </header>
 
@@ -41,5 +40,12 @@
     <footer>
         <p>@todos os direitos reservados</p>
     </footer>
+    <script>
+        const toggle = document.getElementById("menu");
+        const nav = document.querySelector(".nav");
+        toggle.addEventListener('click', () => {
+       nav.classList.toggle('active');
+});
+  </script>
 </body>
 </html>

@@ -14,7 +14,6 @@
             <a href="./index.html">Início</a>
             <a href="./planos.html">Planos</a>
             <a href="./index.php">Contato</a>
-            <a href="#">Sobre</a>
         </nav>
     </header>
 

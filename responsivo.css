@@ -49,7 +49,10 @@
         width: 80%;
     }
 
-    .beneficios 
+    .beneficios{
+        flex-direction: column;
+        height: auto; 
+    } 
     .itens {
         flex-direction: column;
         align-items: center;
